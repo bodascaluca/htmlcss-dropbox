@@ -46,24 +46,31 @@ html{
 
 .btn{
     display: inline-block;
-   
 }
 
 .btn-blue{
-    background-color: #ff2222; /* 2261ff */
-
+    background-color: #2261ff; /* 2261ff */
 }
 
 .btn-small{
     padding:0 1em;
 }
+
 .inherit a{
     color: inherit;
+    /* color: white; */
+}
+
+.mg-left-jb-text{
+    margin-left: .7em;
 }
 /* HEDER  */
 .header{
-    height: 60px;
-
+    /* height: 60px; */
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
     /* TEST  */
     /* background-color: bisque; */
 }
@@ -106,3 +113,55 @@ html{
     height: 2em; */
 }
 
+/* JUMBOTRON  */
+.jumbotron{
+    margin-top: 60px;
+    background-color: #b4d0e7;
+
+    /* TEST  */
+    height: 500px;
+}
+
+.jumbotron-container{
+    width: 90%;
+    margin: 1em auto;
+
+    /* TEST  */
+    border: 2px solid red;
+}
+
+.jumbotron-title{
+    font-size: 2em;
+    /* TEST  */
+    border: 2px solid yellow;
+}
+
+.jumbotron-container{
+    width: 90%
+}
+
+.jumbotron-text{
+    width: 40%;
+
+    /* TEST  */
+    border: 2px solid blue;
+}
+
+.jumbotron-text p{
+    width: 80%;
+}
+
+.jumbotron-text a{
+    margin: 1.5em 0 .8em 0;
+    font-size: 1em;
+    padding: .5em 1em;
+}
+
+.jumbotron-img{
+    width: 60%;
+}
+
+.arrow-down{
+    margin: 1em 0 1.5em 0;
+    font-size: 3em;
+}
