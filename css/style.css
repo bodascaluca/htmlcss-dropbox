@@ -193,3 +193,28 @@ img {
 .jumbotron-img img{
     
 }
+/* CONTAINER PINCIPLE  */
+.container{
+    margin: 9em 0 1em 0 ;
+    
+    /* TEST  */
+    border: 2px solid rebeccapurple;
+}
+
+/* SECTION-1  */
+.section-1{
+    width: 80%;
+    margin: 0 auto;
+
+    /* TEST  */
+    border: 2px solid red ;
+}
+
+.section-1 h2{
+    font-size: 2.3em;
+    margin-bottom: 1.3em;
+}
+
+.section-1 span:first-of-type{
+    margin-left: 1em;
+}
