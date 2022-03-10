@@ -202,7 +202,8 @@ img {
 }
 
 /* SECTION-1  */
-.section-1{
+.section-1,
+.section-2{
     width: 80%;
     margin: 0 auto;
 
