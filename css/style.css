@@ -18,4 +18,91 @@ html{
     clear: both;
 }
 
+.col{
+    float: left;
+}
+.col-right{
+    float: right;
+}
+
+.no-point{
+    list-style: none;
+}
+
+.no-subline a{
+    text-decoration: none;
+}
+.inline-block li{
+    display: inline-block;
+}
+
+.line-height{
+    line-height: 60px;
+}
+
+.vertical-align{
+    vertical-align: middle;
+}
+
+.btn{
+    display: inline-block;
+   
+}
+
+.btn-blue{
+    background-color: #ff2222; /* 2261ff */
+
+}
+
+.btn-small{
+    padding:0 1em;
+}
+.inherit a{
+    color: inherit;
+}
 /* HEDER  */
+.header{
+    height: 60px;
+
+    /* TEST  */
+    /* background-color: bisque; */
+}
+
+/* .section-header-1,
+.section-header-2{
+    width: 50%;
+} */
+
+.header-logo{
+    height: 60px;
+
+    /* TEST  */
+    /* background-color: rgb(247, 2, 2); */
+}
+
+.header-logo img{
+    padding: 0 1em;
+   vertical-align: middle;
+}
+
+.inline-block li{
+    padding: 0 1em;
+}
+
+.section-header-2{
+    height: 60px;
+
+    /* TEST  */
+    /* background-color: yellow; */
+}
+
+.header-btn{
+    padding: 0 1em;
+    color: rgb(5, 5, 5);
+}
+
+.header-btn a{
+    /* width: 3em;
+    height: 2em; */
+}
+
