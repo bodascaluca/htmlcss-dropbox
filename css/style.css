@@ -55,11 +55,18 @@ html{
 .btn-small{
     padding:0 1em;
 }
+ a.btn-blue{
+     color: white;
+ }
 
 .inherit a{
     color: inherit;
-    /* color: white; */
 }
+
+.color a:first-of-type{
+    color: white;
+}
+
 
 .mg-left-jb-text{
     margin-left: .7em;
