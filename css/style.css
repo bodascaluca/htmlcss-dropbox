@@ -83,6 +83,7 @@ img {
     top:0;
     left:0;
     width: 100%;
+    background-color: white;
     /* TEST  */
     /* background-color: bisque; */
 }
@@ -195,7 +196,7 @@ img {
 }
 /* CONTAINER PINCIPLE  */
 .container{
-    margin: 9em 0 1em 0 ;
+    margin: 14  em 0 1em 0 ;
     
     /* TEST  */
     border: 2px solid rebeccapurple;
@@ -211,6 +212,10 @@ img {
     border: 2px solid red ;
 }
 
+.fatturazione{
+    margin-bottom: 2em;
+}
+
 .section-1 h2{
     font-size: 2.3em;
     margin-bottom: 1.3em;
@@ -218,4 +223,45 @@ img {
 
 .section-1 span:first-of-type{
     margin-left: 1em;
+}
+
+    /* SECTION-2  */
+    .plan-service{
+        display: inline-block;
+        width: 20em;
+        vertical-align: top;
+
+        /* TEST  */
+        border: 1px solid grey ;
+    }
+
+    .row-1{
+        border-bottom: 1px solid grey;
+        text-align: center;
+    }
+
+    .service-col{
+       margin-top: 1em;
+    }
+
+    .service-col li{
+        line-height: 300%;
+    }
+
+   .mese{
+       color: grey;
+       font-size: .9em;
+   }
+
+   .mioblocco { 
+	    padding-bottom: 15px; 
+}
+
+.cash{
+    text-decoration: double;
+    font-weight: bolder;
+}
+
+.service-col .inherit:last-child{
+    color: #2263ff;
 }
