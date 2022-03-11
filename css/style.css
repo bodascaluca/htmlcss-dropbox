@@ -244,10 +244,6 @@ img {
     margin-bottom: .5em;
 }
 
- .service-col-2 li{
-     line-height: 250%;
- }
-
  .mgn-col-2{
     margin-right: 1em;
  }
@@ -274,6 +270,10 @@ img {
     margin-bottom: 2em;
 }
 
+ul.no-point li{
+    margin-bottom: 18px;
+}
+
 .info-service{
    
     /* border-top: 1px solid grey; */
@@ -289,6 +289,7 @@ img {
 
 .border-middle{
     border: 1px solid grey;
+    width: 20%;
 }
 
 .checkmark{
@@ -297,4 +298,16 @@ img {
 
 .center{
     margin: 0 1.5em;
+}
+
+.prova-1{
+    display: inline-block;
+}
+
+.prova-2{
+    display: inline;
+}
+
+.service-col-2{
+    margin-bottom: 18px;
 }
