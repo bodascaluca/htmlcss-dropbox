@@ -191,12 +191,13 @@ img {
 
 /* SECTION-1  */
 .section-1,
-.section-2{
+.section-2,
+.section-3{
     width: 80%;
     margin: 0 auto;
 
     /* TEST  */
-    border: 2px solid red ;
+    /* border: 2px solid red ; */
 }
 
 .fatturazione{
@@ -310,4 +311,32 @@ ul.no-point li{
 
 .service-col-2{
     margin-bottom: 18px;
+}
+
+/* SECTION-3 */
+.section-3-container{
+    margin: 4em 0;
+    border: 2px solid blueviolet;
+}
+
+.section-3-img{
+    width: 60%;
+}
+
+.section-3-text{
+    width: 40%;
+}
+
+.section-3-text h2, p{
+    margin-bottom:2em;
+}
+
+.section-3-pad{
+    padding:2em;
+}
+
+.section-3-text .section-3-a{
+    color: black;
+    border: 1px solid black;
+    padding: .5em 2em;
 }
