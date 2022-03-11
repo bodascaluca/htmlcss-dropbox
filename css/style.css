@@ -192,9 +192,10 @@ img {
 /* SECTION-1  */
 .section-1,
 .section-2,
+.section-21,
 .section-3{
     width: 80%;
-    margin: 0 auto;
+    margin: 4em auto;
 
     /* TEST  */
     /* border: 2px solid red ; */
@@ -312,6 +313,47 @@ ul.no-point li{
 .service-col-2{
     margin-bottom: 18px;
 }
+
+/* SECTION-2.1  */
+.section-21{
+    border: 1px solid grey;
+}
+
+.section-21-header{
+    text-align: center; 
+    border-bottom: 1px solid grey;
+}
+
+.section-21-text{
+    padding: 2em;
+    width: 70%;
+}
+
+.section-21-text h2, h3, p{
+    margin-bottom: 18px;
+}
+
+.section-21-button{
+    width: 30%;
+}
+
+.section-21-button .section-21-button-a{
+    color: white;
+    padding: .5em 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SECTION-3 */
 .section-3-container{
