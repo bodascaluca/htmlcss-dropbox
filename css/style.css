@@ -352,7 +352,7 @@ ul.no-point li{
 /* SECTION-3 */
 .section-3-container{
     margin: 4em 0;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
 }
 
 .section-3-img{
@@ -378,10 +378,6 @@ ul.no-point li{
 }
 
  /* SECTION-4 */
-.section-4{
-    border: 1px solid red;
-}
-
 .section-4-header{
     font-size: 1.5em;
 }
@@ -393,9 +389,9 @@ ul.no-point li{
 .section-4-content{
     /* width:400px; */
     width:calc(100%/3 - 1em);
-    height: 400px;
-    background-color: bisque;
-    border: 1px solid red;
+    /* height: 400px; */
+    /* background-color: bisque;
+    border: 1px solid red; */
 }
 
 .section-4-content img{
@@ -404,5 +400,13 @@ ul.no-point li{
 
 .center-4{
     margin:0 1.5em;
+}
+
+.section-4-content p{
+    margin-top: 1em;
+}
+
+.section-4-content a{
+    color: black;
 }
 
