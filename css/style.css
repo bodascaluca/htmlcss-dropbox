@@ -504,4 +504,24 @@ img {
  }
 
 /* SECTION-9 FOOTER */
+.section-9{
+    background-color: black;
+    color: white ;
+}
+
+.section-9-container{
+    border: 1px solid red;
+    margin: 0 10% 0 5%;
+    padding-top: 10%;
+}
+
+.section-9-content{
+    width: calc(100%/5 - 1em);
+    height: 200px;
+    background-color: #2261ff;
+    border: 1px solid greenyellow;
+    margin: 0 .5em;
+}
+
+
 
