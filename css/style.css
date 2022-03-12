@@ -49,6 +49,11 @@ img {
     vertical-align: middle;
 }
 
+.vertical-align-top div{ 
+    margin-top: 2em ;
+    vertical-align: top;
+}
+
 .btn{
     display: inline-block;
 }
@@ -193,7 +198,8 @@ img {
 .section-1,
 .section-2,
 .section-21,
-.section-3{
+.section-3,
+.section-4{
     width: 80%;
     margin: 4em auto;
 
@@ -314,7 +320,7 @@ ul.no-point li{
     margin-bottom: 18px;
 }
 
-/* SECTION-2.1  */
+/* SECTION-21  */
 .section-21{
     border: 1px solid grey;
 }
@@ -340,20 +346,8 @@ ul.no-point li{
 .section-21-button .section-21-button-a{
     color: white;
     padding: .5em 2em;
+    margin-top: 3em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* SECTION-3 */
 .section-3-container{
@@ -382,3 +376,33 @@ ul.no-point li{
     border: 1px solid black;
     padding: .5em 2em;
 }
+
+ /* SECTION-4 */
+.section-4{
+    border: 1px solid red;
+}
+
+.section-4-header{
+    font-size: 1.5em;
+}
+
+.section-4-container{
+
+}
+
+.section-4-content{
+    /* width:400px; */
+    width:calc(100%/3 - 1em);
+    height: 400px;
+    background-color: bisque;
+    border: 1px solid red;
+}
+
+.section-4-content img{
+    max-width: 100%;
+}
+
+.center-4{
+    margin:0 1.5em;
+}
+
