@@ -200,7 +200,8 @@ img {
 .section-21,
 .section-3,
 .section-4,
-.section-5{
+.section-5,
+.section-8{
     width: 80%;
     margin: 4em auto;
 
@@ -279,7 +280,7 @@ img {
     margin-bottom: 2em;
 }
 
-ul.no-point li{
+.info-service  .no-point li{
     margin-bottom: 18px;
 }
 
@@ -471,4 +472,36 @@ ul.no-point li{
    color: black;
 }
 
+/* SECTION-8 */
+.section-8 li{
+    border-top:1px solid grey ;
+}
+
+.sectio-8 ul li:last-of-type{
+    border-bottom:1px solid grey ;
+}
+
+.section-8 h2{
+    font-size: 1.9em;
+    margin-bottom: 2em;  
+}
+
+.section-8 .no-point li{
+    padding: 2em 0;    
+}
+
+.section-8 .no-point{
+    position:relative;
+}
+
+.section-8 .no-point .end{
+    position: absolute;
+    right: 2em;
+}
+
+.section-8 .no-point .end-1{
+    border-bottom: 1px solid grey;
+ }
+
+/* SECTION-9 FOOTER */
 
