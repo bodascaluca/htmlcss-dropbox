@@ -510,7 +510,7 @@ img {
 }
 
 .section-9-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 10% 0 5%;
     padding-top: 10%;
 }
@@ -531,6 +531,32 @@ img {
 a.section-9-a{
     color: white;
 }
+
+/* SECTION-91 FOOTER 2 */
+.section-91{
+    /* border: 1px solid red; */
+
+}
+
+.border-middle-2{
+    border: 1px solid #a9a9a9;
+    width: 10%;
+    margin-bottom: 1em;
+}
+
+.section-91-container{
+    margin: 0 10% 0 5%;
+}
+
+.section-91-container{
+    font-size: .9em;
+    color: grey;
+}
+
+.section-91-container .section-91-content{
+    padding: 2em 0;
+}
+
 
 
 
